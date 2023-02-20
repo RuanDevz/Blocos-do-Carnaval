@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header_container{
+    text-align: center;
+    padding: 110px 40px;
+    background-color: #f8f8ff;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-image: url("esquerdacima.png");
+    background-repeat: no-repeat;
+}
+.header_container h1{
+    padding-bottom: 30px;
+}
+
+.header_container p{
+    color: #e66c6d;
+}
+
+.header_container span{
+    color: #6246ea;
+}
+
+.container_search{
+    max-width: 966px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+i{
+    color: #e66c6d;
+}
+
+input{
+    padding: 5px 0px;
+    width: 220px;
+    border-radius: 3px;
+}
+
+select{
+    padding: 5px 0px;
+    width: 220px;
+    border-radius: 3px;
+}
+
+.options{
+    border: none;
+    background: #f4f4f4;
+}
+
+.options:focus{
+    outline: 0;
+}
