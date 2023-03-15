@@ -15,8 +15,14 @@ body{
     background-color: #f8f8ff;
     max-width: 1440px;
     margin: 0 auto;
-    background-image: url("imagens/esquerdacima.png");
+    background-image: url("imagens/esquerdacima.png"); 
     background-repeat: no-repeat;
+}
+
+.header_container img{
+    position: absolute;
+    top: 124px;
+    left: 1255px;
 }
 .header_container h1{
     padding-bottom: 30px;
